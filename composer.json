@@ -18,6 +18,11 @@
             "role": "Owner"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "DanielGriffiths\\FileZilla\\": "src"
+        }
+    },
     "require": {
         "php": "~5.6|~7.0"
     }

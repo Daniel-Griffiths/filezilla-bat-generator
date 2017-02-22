@@ -2,6 +2,15 @@
 
 A simple class for generating .bat files for connecting to FTP accounts via FileZilla.
 
+## Installation
+
+Via Composer
+
+```
+composer require daniel-griffiths/filezilla-bat-generator dev-master
+``
+
+
 ## Usage
 
 ```PHP
