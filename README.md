@@ -1,6 +1,6 @@
 # FileZilla .bat generator
 
-A simple class for generating .bat files for connecting to FTP accounts via FileZilla.
+A simple class that generates .bat files for connecting to FTP accounts via FileZilla.
 
 ## Installation
 
