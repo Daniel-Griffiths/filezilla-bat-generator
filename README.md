@@ -8,7 +8,7 @@ Via Composer
 
 ```
 composer require daniel-griffiths/filezilla-bat-generator dev-master
-``
+```
 
 
 ## Usage
