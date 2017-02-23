@@ -112,14 +112,14 @@ class FileZilla
 		$this->host . ':' . 
 		$this->port;
 
-	    header('Content-Description: File Transfer');
-	    header('Content-Type: application/octet-stream');
-	    header('Content-disposition: attachment; filename=' . $this->filename);
-	    header('Content-Length: '.strlen($bat));
-	    header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-	    header('Expires: 0');
-	    header('Pragma: public');
+		header('Content-Description: File Transfer');
+		header('Content-Type: application/octet-stream');
+		header('Content-disposition: attachment; filename=' . $this->filename);
+		header('Content-Length: '.strlen($bat));
+		header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+		header('Expires: 0');
+		header('Pragma: public');
 	    
-	    echo $bat;
+		echo $bat;
 	}
 }
