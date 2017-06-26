@@ -8,7 +8,7 @@ class FileZillaTest extends TestCase
      */
     public function testGenerate()
     {
-        $filezilla = new \DanielGriffiths\FileZilla\FileZilla();
+        $filezilla = new \DanielGriffiths\FileZilla();
         $filezilla->setUsername('username');
         $filezilla->setPassword('password');
         $filezilla->setHost('0.0.0.0');

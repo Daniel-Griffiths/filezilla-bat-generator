@@ -1,9 +1,10 @@
 <?php
 
-namespace DanielGriffiths\FileZilla;
+namespace DanielGriffiths;
 
 /**
  * FileZilla - A class for generating bat files for FileZilla
+ * 
  * @package FileZilla
  * @author Daniel Griffiths (daniel-griffiths)
  */
@@ -11,42 +12,49 @@ class FileZilla
 {
 	/**
 	 * Filename of the generated .bat file
+	 * 
 	 * @var string
 	 */
-	private $filename = 'filezilla.bat';
+	protected $filename = 'filezilla.bat';
 
 	/**
 	 * Path to the FileZilla .exe file
+	 * 
 	 * @var string
 	 */
-	private $path = 'C:\Program Files\FileZilla FTP Client\filezilla.exe';
+	protected $path = 'C:\Program Files\FileZilla FTP Client\filezilla.exe';
 
 	/**
 	 * FTP Host
+	 * 
 	 * @var string
 	 */
-	private $host = '';
+	protected $host = '';
 
 	/**
 	 * FTP Username
+	 * 
 	 * @var string
 	 */
-	private $username = '';
+	protected $username = '';
 
 	/**
 	 * FTP Password
+	 * 
 	 * @var string
 	 */
-	private $password = '';
+	protected $password = '';
 
 	/**
 	 * FTP Port
+	 * 
 	 * @var integer
 	 */
-	private $port = 21;
+	protected $port = 21;
 
 	/**
 	 * Sets the FTP Path
+	 * 
 	 * @param string $path 
 	 */
 	public function setPath($path)
@@ -56,6 +64,7 @@ class FileZilla
 
 	/**
 	 * Sets the filename for the .bat file
+	 * 
 	 * @param string $filename 
 	 */
 	public function setFilename($filename)
@@ -65,6 +74,7 @@ class FileZilla
 
 	/**
 	 * Sets the FTP Host
+	 * 
 	 * @param string $host 
 	 */
 	public function setHost($host)
@@ -74,6 +84,7 @@ class FileZilla
 
 	/**
 	 * Sets the FTP Username
+	 * 
 	 * @param string $username 
 	 */
 	public function setUsername($username)
@@ -83,6 +94,7 @@ class FileZilla
 
 	/**
 	 * Sets the FTP Password
+	 * 
 	 * @param string $password 
 	 */
 	public function setPassword($password)
@@ -92,6 +104,7 @@ class FileZilla
 
 	/*
 	 * Sets the FTP Port
+	 * 
 	 * @param string $port 
 	 */
 	public function setPort($port)
@@ -101,6 +114,7 @@ class FileZilla
 
 	/**
 	 * Generates the BAT file
+	 * 
 	 * @return boolean
 	 */
 	public function generate()

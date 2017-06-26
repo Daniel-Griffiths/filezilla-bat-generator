@@ -14,7 +14,7 @@ composer require daniel-griffiths/filezilla-bat-generator dev-master
 ## Usage
 
 ```PHP
-$filezilla = new \DanielGriffiths\FileZilla\FileZilla();
+$filezilla = new \DanielGriffiths\FileZilla();
 
 //required settings
 $filezilla->setUsername('username');
