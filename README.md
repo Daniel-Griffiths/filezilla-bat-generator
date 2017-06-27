@@ -7,7 +7,7 @@ A simple class that generates .bat files for connecting to FTP accounts via File
 Via Composer
 
 ```
-composer require daniel-griffiths/filezilla-bat-generator dev-master
+composer require daniel-griffiths/filezilla-bat-generator
 ```
 
 
