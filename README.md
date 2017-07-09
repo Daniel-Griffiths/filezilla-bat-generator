@@ -28,7 +28,7 @@ $filezilla->setPort('25');
 $filezilla->generate();
 ```
 
-All methods are also chanable.
+All methods are also chainable.
 
 ```PHP
 $filezilla = (new \DanielGriffiths\FileZilla)
