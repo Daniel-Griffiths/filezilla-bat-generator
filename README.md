@@ -14,7 +14,7 @@ composer require daniel-griffiths/filezilla-bat-generator
 ## Usage
 
 ```PHP
-$filezilla = new \DanielGriffiths\FileZilla();
+$filezilla = new DanielGriffiths\FileZilla;
 
 //required settings
 $filezilla->setUsername('username');
@@ -26,4 +26,15 @@ $filezilla->setPath('D:\MyCustomDirectory\FileZilla.exe');
 $filezilla->setPort('25');
 
 $filezilla->generate();
+```
+
+All methods are also chanable.
+
+```PHP
+$filezilla = (new \DanielGriffiths\FileZilla)
+->setUsername('username')
+->setPassword('password')
+->setHost('0.0.0.0')
+->generate();
+
 ```

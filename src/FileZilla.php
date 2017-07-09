@@ -60,6 +60,8 @@ class FileZilla
 	public function setPath($path)
 	{
 		$this->path = $path;
+
+		return $this;
 	}
 
 	/**
@@ -70,6 +72,8 @@ class FileZilla
 	public function setFilename($filename)
 	{
 		$this->filename = $filename;
+
+		return $this;
 	}
 
 	/**
@@ -80,6 +84,8 @@ class FileZilla
 	public function setHost($host)
 	{
 		$this->host = $host;
+
+		return $this;
 	}
 
 	/**
@@ -90,6 +96,8 @@ class FileZilla
 	public function setUsername($username)
 	{
 		$this->username = $username;
+
+		return $this;
 	}
 
 	/**
@@ -100,6 +108,8 @@ class FileZilla
 	public function setPassword($password)
 	{
 		$this->password = $password;
+
+		return $this;
 	}
 
 	/*
@@ -110,6 +120,8 @@ class FileZilla
 	public function setPort($port)
 	{
 		$this->port = $port;
+
+		return $this;
 	}
 
 	/**
