@@ -31,7 +31,7 @@ $filezilla->generate();
 All methods are also chainable.
 
 ```PHP
-$filezilla = (new DanielGriffiths\FileZilla)
+$filezilla = new DanielGriffiths\FileZilla;
 ->setUsername('username')
 ->setPassword('password')
 ->setHost('0.0.0.0')
